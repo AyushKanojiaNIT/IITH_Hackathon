@@ -11,7 +11,7 @@
   - [Propagation Delay]()
   - [PDP]()
 - [Conclusion]()
-- [Acknowledgement]()
+- [Acknowledgements]()
 - [References]()
 
 ## Abstract
@@ -98,5 +98,92 @@ The PDP of the Proposed_FA is found to be minimum, due to the effective downscal
 > Netlist of the presented 16T full adder
 [Netlist.txt](https://github.com/AyushKanojiaNIT/IITH_Hackathon/files/8147646/Netlist.txt)
 
+```
+*  Generated for: PrimeSim
+*  Design library name: Hackathon_Designs
+*  Design cell name: My_16T_Tb
+*  Design view name: schematic
+.lib 'saed32nm.lib' TT
+
+*Custom Compiler Version S-2021.09
+*Sat Feb 26 22:44:50 2022
+
+.global gnd!
+********************************************************************************
+* Library          : Hackathon_Designs
+* Cell             : My_16T
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt my_16t a b cin cout sum vdd vss
+xm13 cout net97 b vdd p105 w=0.2u l=0.03u nf=1 m=1
+xm12 cout net90 cin vdd p105 w=0.2u l=0.03u nf=1 m=1
+xm11 sum cin net97 vdd p105 w=0.2u l=0.03u nf=1 m=1
+xm10 sum net97 cin vdd p105 w=0.2u l=0.03u nf=1 m=1
+xm3 net90 a net13 vdd p105 w=0.2u l=0.03u nf=1 m=1
+xm2 net13 b vdd vdd p105 w=0.2u l=0.03u nf=1 m=1
+xm1 net97 b a vdd p105 w=0.2u l=0.03u nf=1 m=1
+xm0 net97 a b vdd p105 w=0.2u l=0.03u nf=1 m=1
+xm15 cout net97 cin vss n105 w=0.1u l=0.03u nf=1 m=1
+xm14 cout net90 b vss n105 w=0.1u l=0.03u nf=1 m=1
+xm9 sum cin net90 vss n105 w=0.1u l=0.03u nf=1 m=1
+xm8 sum net90 cin vss n105 w=0.1u l=0.03u nf=1 m=1
+xm7 net90 b a vss n105 w=0.1u l=0.03u nf=1 m=1
+xm6 net26 b vss vss n105 w=0.1u l=0.03u nf=1 m=1
+xm5 net90 a b vss n105 w=0.1u l=0.03u nf=1 m=1
+xm4 net97 a net26 vss n105 w=0.1u l=0.03u nf=1 m=1
+.ends my_16t
+
+********************************************************************************
+* Library          : Hackathon_Designs
+* Cell             : My_16T_Tb
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+xi0 a b cin cout sum net23 gnd! my_16t
+v4 cin gnd! dc=0 pulse ( 0 1 0 2p 2p 5u 10u )
+v3 b gnd! dc=0 pulse ( 0 1 0 2p 2p 10u 20u )
+v2 a gnd! dc=0 pulse ( 0 1 0 2p 2p 20u 40u )
+v5 net23 gnd! dc=1
+
+
+
+
+
+
+
+
+.tran '0' '40u' name=tran
+
+.option primesim_remove_probe_prefix = 0
+.probe v(*) i(*) level=1
+.probe tran v(a) v(b) v(cin) v(cout) v(sum)
+
+.temp 25
+
+
+
+.option primesim_output=wdf
+
+
+.option parhier = LOCAL
+
+
+
+
+
+
+.end
+```
+
 ## Conclusion
-A low power 16T hybrid full adder cell has been presented in this work. The implementation, simulation and performance analysis of the full adder cell is realised on Synopsys custom complier tool in 28nm process node. 
+A low power 16T hybrid full adder cell has been presented in this work. The implementation, simulation and performance analysis of the full adder cell is realised on Synopsys custom complier tool in 28nm process node. The simulation results showed that the presented full adder cell provides full swing outputs with enhanced power, delay and PDP. The performance of the presented cell is validated by scaling it upto 4-bit. The presented full adder offered improvement of about 9%, 27.4% and 34% in terms of power, delay and PDP respectively as compared to conventional design. The presented hybrid full adder cell can be applied for various applications like low power computing devices, multipliers, ALUs.
+
+## Author
+Ayush Kanojia, M.Tech. in Electronics and Communication Engineering, National Institute of Technology, Delhi-110036
+
+## Acknowledgements
+1. [Kunal Ghosh](https://www.linkedin.com/in/kunal-ghosh-vlsisystemdesign-com-28084836/), co-founder VLSI System Design Corporation
+2. []
