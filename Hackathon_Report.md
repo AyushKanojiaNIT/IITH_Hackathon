@@ -60,9 +60,12 @@ Signals *A*, *B* and *Cin* with different periods are provided as inputs and out
 **(b)**
 **Fig. 5 Schematic of the investigated full adder cells (a) Conventional_FA, (b) Bhattacharya_FA**
 
-![Waveform_1](https://user-images.githubusercontent.com/100459963/155858494-b49f8415-9829-4db8-8bfd-b750364e4d3f.png)
+![Waveform_wtb](https://user-images.githubusercontent.com/100459963/155861445-5f5f3dae-459d-4185-bf18-ed5aeadb21f1.png)
 :--:
-**Fig. 6 Input-output waveforms of the presented full adder cell with testbench**
+**(a)**
+![Waveform_1](https://user-images.githubusercontent.com/100459963/155858494-b49f8415-9829-4db8-8bfd-b750364e4d3f.png)
+**(b)**
+**Fig. 6 Input-output waveforms of the presented full adder cell (a) without testbench, (b) with testbench**
 
 ![4-bit_RCA](https://user-images.githubusercontent.com/100459963/155859065-6905b5f2-3055-4f15-99fb-1a4e3c8ebe5e.png)
 :--:
@@ -72,14 +75,28 @@ Signals *A*, *B* and *Cin* with different periods are provided as inputs and out
 The power consumption is the most important parameter for an energy-efficient circuit. In VLSI, the total power consumption of a circuit can be categorized into two parts: dynamic power and static power. The power consumption comparison of the presented full adder cell (Proposed_FA) in various bit orders is depicted in Fig. 8.
 ![Power_Comparison_2](https://user-images.githubusercontent.com/100459963/155859307-48a976bd-3559-4044-9d68-0eb7e520ebf4.png)
 :--:
-**Fig. 8 Power consumption comparison**
+**Fig. 8 Power consumption comparison of the investigated full adder designs**
 
 The total power consumption of the Proposed_FA is less because of its optimized layout design and less transistor count as compared to Conventional_FA [3]. Low switching activity of the transistors results low power consuming transitions and low load capacitance at the internal nodes. Further, simultaneous switch-off action of not-needed transistors helps in reducing the power.
 
 ### Propagation Delay
-In higher applications, cascading operations are done on full adders. Thus, the speed performance of the whole system depends on the delay of each full adder circuit. For all of the LOW to HIGH and HIGH and LOW transitions, the delay is observed from half of the input voltage to half of the output voltage. Fig. 9 shows the propagation delay comparison of the presented full adder cell.
+In higher applications, cascading operations are done on full adders. Thus, the speed performance of the whole system depends on the delay of each full adder circuit. For all of the LOW to HIGH and HIGH and LOW transitions, the delay is observed from half of the input voltage to half of the output voltage. Fig. 9 shows the propagation delay comparison of the presented full adder cell.Here, worst case delay is considered.
 ![Delay_Comparison_1](https://user-images.githubusercontent.com/100459963/155859650-37302b68-07b1-427c-ad07-f7fa64fa466b.png)
 :--:
-**Fig. 9 Propagation delay comparison**
+**Fig. 9 Propagation delay comparison of the investigated full adder designs**
 
-In the proposed design, effective transistor sizing and transistor arrangements in the layout of each module minimize the overall delay. The fast operation of Module-II and Module-III is ensured by simultaneous generation of XOR and XNOR impulses from Module-I. The use of transmission gates in the carry module reduces the further delay in carry output generation.
+The effective transistor arrangements in the layout of each module reduces the overall delay of Proposed_FA. Module-I ensures the fast operation of Module-II and Module-III by simultaneous generation of XOR and XNOR signals. The use of transmission gates further reduces the delay.
+
+### PDP
+Low PDP means enhanced battery life as the energy consumption of the device will be very low. Hence, the PDP of compact devices need to be low [4]. Reduction in power and delay contributes to the reduction of PDP, but it is sometimes difficult to find a trade-off between them. The PDP comparison of the investigated full adder circuits is depicted in Fig. 10. 
+![PDP_Comparison_1](https://user-images.githubusercontent.com/100459963/155860940-e3ae9c1f-6e3c-4a86-860a-ef7a088f8007.png)
+:--:
+**Fig. 9 Power-delay product comparison of the investigated full adder designs**
+
+The PDP of the Proposed_FA is found to be minimum, due to the effective downscaling of power consumption and propagation delay.
+
+> Netlist of the presented 16T full adder
+[Netlist.txt](https://github.com/AyushKanojiaNIT/IITH_Hackathon/files/8147646/Netlist.txt)
+
+## Conclusion
+A low power 16T hybrid full adder cell has been presented in this work. The implementation, simulation and performance analysis of the full adder cell is realised on Synopsys custom complier tool in 28nm process node. 
