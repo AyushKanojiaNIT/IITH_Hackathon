@@ -185,10 +185,10 @@ A low power 16T hybrid full adder cell has been presented in this work. The impl
 Ayush Kanojia, M.Tech. in Electronics and Communication Engineering, National Institute of Technology, Delhi-110036
 
 ## Acknowledgements
-1. [Kunal Ghosh](https://www.linkedin.com/in/kunal-ghosh-vlsisystemdesign-com-28084836/), Co-Founder, VLSI System Design Corporation
-2. [Chinmaya Panda](https://ee.iith.ac.in/staff.html), Technical Officer, Dept. of EE, IIT Hyderabad
-3. [Synopsys India](https://www.synopsys.com/)
-4. [IIT Hyderabad](https://iith.ac.in/)
+1. [IIT Hyderabad](https://iith.ac.in/)
+2. [Synopsys India](https://www.synopsys.com/)
+3. [Kunal Ghosh](https://www.linkedin.com/in/kunal-ghosh-vlsisystemdesign-com-28084836/), Co-Founder, VLSI System Design Corporation
+4. [Chinmaya Panda](https://ee.iith.ac.in/staff.html), Technical Officer, Dept. of EE, IIT Hyderabad
 5. [Sumanto Kar](https://www.linkedin.com/in/sumanto-kar-0424391a9/), Sr. Technical Assistant, IIT Bombay
 
 ## References
