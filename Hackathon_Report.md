@@ -1,18 +1,18 @@
 # Implementation of an Effective 16T 1-bit Hybrid Full Adder cell in 28nm process
 ## Table of contents
-- [Abstract]()
-- [Introduction]()
-- [Design of the presented 1-bit hybrid full adder]()
-  - [Module-I]()
-  - [Module-II]()
-  - [Module-III]()
-- [Simulation and Performance analysis]()
-  - [Power Consumption]()
-  - [Propagation Delay]()
-  - [PDP]()
-- [Conclusion]()
-- [Acknowledgements]()
-- [References]()
+- [Abstract](https://github.com/AyushKanojiaNIT/IITH_Hackathon/edit/main/Hackathon_Report.md#abstract)
+- [Introduction](https://github.com/AyushKanojiaNIT/IITH_Hackathon/edit/main/Hackathon_Report.md#introduction)
+- [Design of the presented 1-bit hybrid full adder](https://github.com/AyushKanojiaNIT/IITH_Hackathon/edit/main/Hackathon_Report.md#design-of-the-presented-1-bit-hybrid-full-adder)
+  - [Module-I](https://github.com/AyushKanojiaNIT/IITH_Hackathon/edit/main/Hackathon_Report.md#module-i)
+  - [Module-II](https://github.com/AyushKanojiaNIT/IITH_Hackathon/edit/main/Hackathon_Report.md#module-ii)
+  - [Module-III](https://github.com/AyushKanojiaNIT/IITH_Hackathon/edit/main/Hackathon_Report.md#module-iii)
+- [Simulation and Performance analysis](https://github.com/AyushKanojiaNIT/IITH_Hackathon/edit/main/Hackathon_Report.md#simulation-and-performance-analysis)
+  - [Power Consumption](https://github.com/AyushKanojiaNIT/IITH_Hackathon/edit/main/Hackathon_Report.md#power-consumption)
+  - [Propagation Delay](https://github.com/AyushKanojiaNIT/IITH_Hackathon/edit/main/Hackathon_Report.md#propagation-delay)
+  - [PDP](https://github.com/AyushKanojiaNIT/IITH_Hackathon/edit/main/Hackathon_Report.md#pdp)
+- [Conclusion](https://github.com/AyushKanojiaNIT/IITH_Hackathon/edit/main/Hackathon_Report.md#conclusion)
+- [Acknowledgements](https://github.com/AyushKanojiaNIT/IITH_Hackathon/edit/main/Hackathon_Report.md#acknowledgements)
+- [References](https://github.com/AyushKanojiaNIT/IITH_Hackathon/edit/main/Hackathon_Report.md#references)
 
 ## Abstract
 An energy-efficient design of every computing tool is the need of the hour, and a full adder is an elementary part of almost every computing tool. In this work a 1-bit full adder is implemented using an hybrid approach for energy-efficient applications. The presented design provides a full swing output and consumes low power as compared to conventional design. The design, simulation and performance analysis of the presented full adder design is carried-out using Synopsys custom compiler tool in 28nm process node. The reduction observed by the presented 1-bit full adder cell in terms of power, delay, and power-delay product(PDP) is found to be about 9%, 27.4%, and 34% as compared to conventional design.
@@ -187,5 +187,13 @@ Ayush Kanojia, M.Tech. in Electronics and Communication Engineering, National In
 ## Acknowledgements
 1. [Kunal Ghosh](https://www.linkedin.com/in/kunal-ghosh-vlsisystemdesign-com-28084836/), co-founder, VLSI System Design Corporation
 2. [Chinmaya Panda](https://ee.iith.ac.in/staff.html), Technical Officer, Dept. of EE, IIT Hyderabad
-3. [Synopsys India](https://www.synopsys.com/), 
+3. [Synopsys India](https://www.synopsys.com/)
 4. [Sumanto Kar](https://www.linkedin.com/in/sumanto-kar-0424391a9/), Sr. Technical Assistant, IIT Bombay
+
+## References
+[1]	M. Amini-Valashani, M. Ayat, and S. Mirzakuchaki, “Design and analysis of a novel low-power and energy-efficient 18T hybrid full adder,” Microelectron. J., vol. 74, pp. 49–59, Apr. 2018. <br>
+[2]	H. Naseri and S. Timarchi, "Low-Power and Fast Full Adder by Exploring New XOR and XNOR Gates," IEEE Transactions on Very Large Scale Integration (VLSI) Systems, vol. 26, no. 8, pp. 1481-1493, Aug. 2018. <br>
+[3]	N. H. E. Weste and D. M. Harris, CMOS VLSI Design: A Circuits and Systems Perspective, 4th ed. Boston, MA, USA: Addison-Wesley, 2010. <br>
+[4]	M. C. Parameshwara and H. C. Srinivasaiah, “Low-Power Hybrid 1-Bit Full Adder Circuit for Energy Efficient Arithmetic Applications,” Journal of Circuits, Systems and Computers, vol. 26, no. 1, pp. 1-15, 2017. <br>
+[5]	P. Bhattacharyya, B. Kundu, S. Ghosh, V. Kumar and A. Dandapat, “Performance Analysis of a Low-Power High-Speed Hybrid 1-bit Full Adder Circuit,” IEEE Transactions on Very Large Scale Integration (VLSI) Systems, vol. 23, no. 10, pp. 2001-2008, Oct. 2015. <br>
+[6]	J. Kandpal, A. Tomar, M. Agarwal and K. K. Sharma, “High-Speed Hybrid-Logic Full Adder Using High-Performance 10-T XOR–XNOR Cell,” IEEE Transactions on Very Large Scale Integration (VLSI) Systems, vol. 28, no. 6, pp. 1413-1422, June 2020. 
