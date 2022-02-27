@@ -1,9 +1,9 @@
 # Implementation of an Effective 16T 1-bit Hybrid Full Adder cell in 28nm process
 ## Table of contents
-- [Abstract](https://github.com/AyushKanojiaNIT/IITH_Hackathon/edit/main/README.md#abstract)
-- [Introduction](https://github.com/AyushKanojiaNIT/IITH_Hackathon/edit/main/README.md#introduction)
-- [Design of the presented 1-bit hybrid full adder](https://github.com/AyushKanojiaNIT/IITH_Hackathon/edit/main/README.md#design-of-the-presented-1-bit-hybrid-full-adder)
-  - [Module-I](https://github.com/AyushKanojiaNIT/IITH_Hackathon/edit/main/README.md#module-i)
+- [Abstract](https://github.com/AyushKanojiaNIT/IITH_Hackathon/edit/main/Hackathon_Report.md#abstract)
+- [Introduction](https://github.com/AyushKanojiaNIT/IITH_Hackathon/edit/main/Hackathon_Report.md#introduction)
+- [Design of the presented 1-bit hybrid full adder](https://github.com/AyushKanojiaNIT/IITH_Hackathon/edit/main/Hackathon_Report.md#design-of-the-presented-1-bit-hybrid-full-adder)
+  - [Module-I](https://github.com/AyushKanojiaNIT/IITH_Hackathon/edit/main/Hackathon_Report.md#module-i)
   - [Module-II](https://github.com/AyushKanojiaNIT/IITH_Hackathon/edit/main/README.md#module-ii)
   - [Module-III](https://github.com/AyushKanojiaNIT/IITH_Hackathon/edit/main/README.md#module-iii)
 - [Simulation and Performance analysis](https://github.com/AyushKanojiaNIT/IITH_Hackathon/edit/main/README.md#simulation-and-performance-analysis)
