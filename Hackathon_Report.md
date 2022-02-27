@@ -188,7 +188,8 @@ Ayush Kanojia, M.Tech. in Electronics and Communication Engineering, National In
 1. [Kunal Ghosh](https://www.linkedin.com/in/kunal-ghosh-vlsisystemdesign-com-28084836/), Co-Founder, VLSI System Design Corporation
 2. [Chinmaya Panda](https://ee.iith.ac.in/staff.html), Technical Officer, Dept. of EE, IIT Hyderabad
 3. [Synopsys India](https://www.synopsys.com/)
-4. [Sumanto Kar](https://www.linkedin.com/in/sumanto-kar-0424391a9/), Sr. Technical Assistant, IIT Bombay
+4. [IIT Hyderabad](https://iith.ac.in/)
+5. [Sumanto Kar](https://www.linkedin.com/in/sumanto-kar-0424391a9/), Sr. Technical Assistant, IIT Bombay
 
 ## References
 [^1]:	M. Amini-Valashani, M. Ayat, and S. Mirzakuchaki, “Design and analysis of a novel low-power and energy-efficient 18T hybrid full adder,” Microelectron. J., vol. 74, pp. 49–59, Apr. 2018.
