@@ -1,18 +1,18 @@
 # Implementation of an Effective 16T 1-bit Hybrid Full Adder cell in 28nm process
 ## Table of contents
-- [Abstract](https://github.com/AyushKanojiaNIT/IITH_Hackathon/edit/main/Hackathon_Report.md#abstract)
-- [Introduction](https://github.com/AyushKanojiaNIT/IITH_Hackathon/edit/main/Hackathon_Report.md#introduction)
-- [Design of the presented 1-bit hybrid full adder](https://github.com/AyushKanojiaNIT/IITH_Hackathon/edit/main/Hackathon_Report.md#design-of-the-presented-1-bit-hybrid-full-adder)
-  - [Module-I](https://github.com/AyushKanojiaNIT/IITH_Hackathon/edit/main/Hackathon_Report.md#module-i)
-  - [Module-II](https://github.com/AyushKanojiaNIT/IITH_Hackathon/edit/main/Hackathon_Report.md#module-ii)
-  - [Module-III](https://github.com/AyushKanojiaNIT/IITH_Hackathon/edit/main/Hackathon_Report.md#module-iii)
-- [Simulation and Performance analysis](https://github.com/AyushKanojiaNIT/IITH_Hackathon/edit/main/Hackathon_Report.md#simulation-and-performance-analysis)
-  - [Power Consumption](https://github.com/AyushKanojiaNIT/IITH_Hackathon/edit/main/Hackathon_Report.md#power-consumption)
-  - [Propagation Delay](https://github.com/AyushKanojiaNIT/IITH_Hackathon/edit/main/Hackathon_Report.md#propagation-delay)
-  - [PDP](https://github.com/AyushKanojiaNIT/IITH_Hackathon/edit/main/Hackathon_Report.md#pdp)
-- [Conclusion](https://github.com/AyushKanojiaNIT/IITH_Hackathon/edit/main/Hackathon_Report.md#conclusion)
-- [Acknowledgements](https://github.com/AyushKanojiaNIT/IITH_Hackathon/edit/main/Hackathon_Report.md#acknowledgements)
-- [References](https://github.com/AyushKanojiaNIT/IITH_Hackathon/edit/main/Hackathon_Report.md#references)
+- [Abstract](https://github.com/AyushKanojiaNIT/IITH_Hackathon/edit/main/README.md#abstract)
+- [Introduction](https://github.com/AyushKanojiaNIT/IITH_Hackathon/edit/main/README.md#introduction)
+- [Design of the presented 1-bit hybrid full adder](https://github.com/AyushKanojiaNIT/IITH_Hackathon/edit/main/README.md#design-of-the-presented-1-bit-hybrid-full-adder)
+  - [Module-I](https://github.com/AyushKanojiaNIT/IITH_Hackathon/edit/main/README.md#module-i)
+  - [Module-II](https://github.com/AyushKanojiaNIT/IITH_Hackathon/edit/main/README.md#module-ii)
+  - [Module-III](https://github.com/AyushKanojiaNIT/IITH_Hackathon/edit/main/README.md#module-iii)
+- [Simulation and Performance analysis](https://github.com/AyushKanojiaNIT/IITH_Hackathon/edit/main/README.md#simulation-and-performance-analysis)
+  - [Power Consumption](https://github.com/AyushKanojiaNIT/IITH_Hackathon/edit/main/README.md#power-consumption)
+  - [Propagation Delay](https://github.com/AyushKanojiaNIT/IITH_Hackathon/edit/main/README.md#propagation-delay)
+  - [PDP](https://github.com/AyushKanojiaNIT/IITH_Hackathon/edit/main/README.md#pdp)
+- [Conclusion](https://github.com/AyushKanojiaNIT/IITH_Hackathon/edit/main/README.md#conclusion)
+- [Acknowledgements](https://github.com/AyushKanojiaNIT/IITH_Hackathon/edit/main/README.md#acknowledgements)
+- [References](https://github.com/AyushKanojiaNIT/IITH_Hackathon/edit/main/README.md#references)
 
 ## Abstract
 An energy-efficient design of every computing tool is the need of the hour, and a full adder is an elementary part of almost every computing tool. In this work a 1-bit full adder is implemented using an hybrid approach for energy-efficient applications. The presented design provides a full swing output and consumes low power as compared to conventional design. The design, simulation and performance analysis of the presented full adder design is carried-out using Synopsys custom compiler tool in 28nm process node. The reduction observed by the presented 1-bit full adder cell in terms of power, delay, and power-delay product(PDP) is found to be about 9%, 27.4%, and 34% as compared to conventional design.
